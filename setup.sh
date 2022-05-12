@@ -189,7 +189,7 @@ sleep 2
 wget -qO /root/patch.sh ${server_owner}/INSTALL/Features/patch.sh && chmod +x patch.sh && ./patch.sh && rm -f /root/patch.sh
 
 #Configuration Wellcome
-wget -qO /root/.profile ${server_owner}/.profile
+wget -qO /root/.profile ${server_owner}/profile
 
 #Getting file auto_reboot & auto delete user-expired
 wget -qO /usr/bin/auto_reboot ${server_owner}/INSTALL/Features/auto_reboot.sh && chmod +x /usr/bin/auto_reboot
