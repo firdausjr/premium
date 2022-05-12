@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Colour text
+red='\e[1;31m'
+green='\e[0;32m'
+NC='\e[0m'
+cyan='\x1b[96m'
+white='\x1b[37m'
+bold='\033[1m'
+off='\x1b[m'
+
+# Message
+echo -e "  ${bold}══════════════════════-[ ${green}MESSAGE FROM SERVER ~FIRDAUS PROJECT${NC} ]-══════════════════════${off}"
+echo -e ""
+echo -e "   USE COMMAND > ${cyan}menu${NC} for show all services"
+echo -e "               > ${green}settings${NC} for manage your vps"
+echo -e "               > ${red}restart${NC} for restart services if error"
+echo -e ""
+echo -e "    Or maybe . . ."
+echo -e "       You are can use this terminal how you like ."
+echo -e "       Enjoy, you can tell my BOSS. He is Daus"
+echo -e ""
+echo -e ""
+exit 1
